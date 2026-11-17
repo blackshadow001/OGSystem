@@ -519,18 +519,18 @@ body {
   gap: 20px;
 }
 .desktop-nav {
-  gap: 17px;
+  gap: 24px;
   flex-shrink: 0;
 }
 .desktop-nav a {
   white-space: nowrap;
-  font-size: 12px;
+  font-size: 14px;
 }
 .header-actions {
   gap: 8px;
 }
 .header-actions .button-small {
-  padding-inline: 12px;
+  padding-inline: 18px;
 }
 .button {
   font-size: 13px;
@@ -700,7 +700,7 @@ h1 {
   object-position: center 35%;
 }
 
-@media (max-width: 1180px) {
+@media (max-width: 950px) {
   .desktop-nav,
   .header-actions {
     display: none;
