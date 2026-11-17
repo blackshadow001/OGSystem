@@ -1,0 +1,23 @@
+{
+  "name": "officeguard-commercial-site",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 5555",
+    "build": "next build",
+    "start": "next start -H 0.0.0.0",
+    "demo:export": "node scripts/export-demo-requests.mjs",
+    "demo:inbox": "node scripts/demo-inbox.mjs"
+  },
+  "dependencies": {
+    "next": "16.4.6",
+    "react": "19.3.1",
+    "react-dom": "19.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "typescript": "^5.0.0"
+  }
+}
